@@ -1,7 +1,7 @@
 export default function Resume() {
     return (
         <div className="container justify-content-center">
-            <h3 className="text-center">Skills</h3>
+            <h1 className="text-center">Skills</h1>
             <div className="row justify-content-evenly">
                 <ul className="col-4">
                     <li>HTML5/CSS</li>

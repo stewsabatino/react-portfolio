@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div className="container justify-content-center">
-            <h1 className="text-dark">About Me </h1>
+            <h1 className="text-dark text-center">About Me </h1>
             <p className="text-dark fw-bold">I am a former Plant Manager / Mining Engineer turned full-stack software developer. I enjoy computer programming and problem solving which drove me to get my certificate of full-stack web development from Northwestern University. I recently got married in May after having to postpone my wedding 6 months due to COVID. After getting married we recently got a puppy named Gus, a Sheepadoodle.
             </p>
 

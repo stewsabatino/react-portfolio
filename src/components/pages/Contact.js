@@ -25,7 +25,7 @@ export default function Contact() {
 
     return (
             <div className="container justify-content-center border" style={form}>
-                <h2>Contact me</h2>
+                <h1 className="text-center">Contact me</h1>
                 <div className="form-floating mb-3">
                     <input type="text" value={formData.fullName} className="form-control" id="floatingInput" placeholder="name@example.com" 
                     onChange={(event) => setFormData({...formData, fullName: event.target.value})} />
@@ -35,7 +35,7 @@ export default function Contact() {
                     <textarea className="form-control" value={formData.comment} placeholder="Leave a comment here" id="floatingTextarea2" onChange={(event) => setFormData({...formData, comment: event.target.value})}></textarea>
                     <label for="floatingTextarea2">Comments</label>
                 </div>
-                <button onClick={handleEmail}>
+                <button onClick={handleEmail} className="btn btn-block btn-squared btn-dark text-light mt-3">
                     send email
                 </button>
             </div>
